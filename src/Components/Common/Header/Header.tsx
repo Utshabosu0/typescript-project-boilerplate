@@ -18,13 +18,13 @@ const Header = () => {
                     <img className='nav-logo' src="./logo.svg" alt="site logo" />
                 </NavLink>
 
-                <div className='hidden md:flex justify-end items-center divide-x'>
+                <div className=' md:flex justify-end items-center divide-x'>
                     <div className='flex justify-between items-center'>
                         {/* <div className="">
                         <input type="text" className="search-field" placeholder="Search" />
                     </div> */}
 
-                        <div className="flex items-center">
+                        <div className="hidden md:flex items-center">
                             <label htmlFor="header-search" className="sr-only">Search</label>
                             <div className="relative w-full">
                                 <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
@@ -39,7 +39,7 @@ const Header = () => {
                         </ul>
                     </div>
 
-                    <div className='flex justify-between items-center'>
+                    <div className='hidden md:flex justify-between items-center'>
 
                         <button className='nav-action-button login-button-color '>
                             Login
@@ -56,11 +56,11 @@ const Header = () => {
                     </div>
                 </div>
 
-                <div className='md:hidden'>
+                {/* <div className='md:hidden'>
                     <button className='cursor-pointer p-2'>
                         <FontAwesomeIcon icon={faBars} />
                     </button>
-                </div>
+                </div> */}
 
 
             </div>

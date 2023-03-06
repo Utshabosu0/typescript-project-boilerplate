@@ -18,7 +18,7 @@ const Footer = () => {
                 <div className='mt-32'>
                     <div className='grid grid-cols-1 md:grid-cols-3 '>
 
-                        <div className='pr-10 col-span-1 ml-1 md:ml-9'>
+                        <div className='pr-10 col-span-1 ml-1 md:ml-9 mt-1'>
                             <img src="./logo.svg" alt="site logo" />
 
                             <p className='normal-text my-5'>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
