@@ -10,7 +10,7 @@ export const CategoriesList = () => {
         <div className='categories-container'>
             <div className='categories-content'>
                 <div className='lg:text-start md:text-center sm:text-center ml-3'>
-                    <h1 className='categories-title sm:text-base'>Courses by<span style={{ color: "#008CC9" }}> Categories</span>
+                    <h1 className='categories-title'>Courses by<span style={{ color: "#008CC9" }}> Categories</span>
                     </h1>
                 </div>
 

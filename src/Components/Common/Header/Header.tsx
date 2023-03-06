@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.scss'
 import { NavLink } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faBars } from '@fortawesome/free-solid-svg-icons';
 const Header = () => {
     const menuItems = <>
         <li className='nav-button'><NavLink className='nav-button-link' to="/">Home</NavLink></li>
@@ -18,23 +18,23 @@ const Header = () => {
                     <img className='nav-logo' src="./logo.svg" alt="site logo" />
                 </NavLink>
 
-                <div className=' md:flex justify-end items-center divide-x'>
+                <div className=' flex justify-end items-center divide-x'>
                     <div className='flex justify-between items-center'>
                         {/* <div className="">
                         <input type="text" className="search-field" placeholder="Search" />
                     </div> */}
 
-                        <div className="hidden md:flex items-center">
+                        <div className="flex items-center">
                             <label htmlFor="header-search" className="sr-only">Search</label>
                             <div className="relative w-full">
                                 <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
                                     <img src="./icons/search.svg" alt="email-icon" />
                                 </div>
-                                <input type="text" id="header-search" className="bg-gray-50 border border-gray-100 text-gray-900 text-sm rounded-lg focus:ring-blue-300 focus:border-blue-100 block w-full  p-2.5 pr-10 dark:bg-gray-700 dark:border-gray-100 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-100 dark:focus:border-blue-100" placeholder="Search" required />
+                                <input type="text" id="header-search" className="bg-gray-50 border border-gray-100 text-gray-900 text-sm rounded-lg focus:ring-blue-300 focus:border-blue-100 block w-full  p-2.5 pr-10" placeholder="Search" required />
                             </div>
                         </div>
 
-                        <ul className='flex justify-between items-center'>
+                        <ul className='flex justify-between items-center nav-tittle'>
                             {menuItems}
                         </ul>
                     </div>

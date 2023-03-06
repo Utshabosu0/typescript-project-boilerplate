@@ -1,11 +1,8 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleRight, faCircleLeft } from '@fortawesome/free-solid-svg-icons';
-// import "./style.scss"
+
 import { courses } from '../../../Constants/courses'
 import { CardSilder } from '../../CardSilder/CardSilder'
 export const CardSilderList = () => {
-    // const [courseList, SetCourseList] = useState([] as ICourse[]);
 
 
 

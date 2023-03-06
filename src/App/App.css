@@ -2,12 +2,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 .main-layout {
   margin: 0 auto;
   background-position: center;
   background-size: contain;
   max-width: 1440px;
 }
+
 .main-layout .layout-children {
   margin: 0 auto;
 }
@@ -23,4 +25,6 @@
 .view-more-button {
   width: 150px;
   height: 48px;
-}/*# sourceMappingURL=App.css.map */
+}
+
+/*# sourceMappingURL=App.css.map */
