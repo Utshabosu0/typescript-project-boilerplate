@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.main-layout {
+  margin: 0 auto;
+  background-position: center;
+  background-size: contain;
+  max-width: 1440px;
+}
+.main-layout .layout-children {
+  margin: 0 auto;
+}
+
+.button-primary {
+  width: 100%;
+  height: 100%;
+  background: #008cc9;
+  border-radius: 8px;
+  color: white;
+}
+
+.view-more-button {
+  width: 150px;
+  height: 48px;
+}/*# sourceMappingURL=App.css.map */

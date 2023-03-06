@@ -1,0 +1,48 @@
+.footer-container {
+  max-width: 1440px;
+  background: #f6f7fa;
+  margin-top: 130px;
+}
+.footer-container .content-area {
+  max-width: 1200px;
+  padding: 10px;
+}
+.footer-container .content-area .subscription-container {
+  width: 100%;
+  position: relative;
+}
+.footer-container .content-area .subscription-container .subscription {
+  max-width: 1110px;
+  position: absolute;
+  top: -80px;
+}
+.footer-container .content-area .normal-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  color: #1b1d21;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.footer-container .content-area .sub-header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #333333;
+}
+.footer-container .content-area .foter-page-link {
+  margin: 14px 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #333333;
+}/*# sourceMappingURL=style.css.map */

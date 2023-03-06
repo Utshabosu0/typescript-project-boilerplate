@@ -1,0 +1,125 @@
+.nav-container {
+  max-width: 1440px;
+  height: 80px;
+}
+.nav-container .content-area {
+  width: 1200px;
+  padding: 10px 30px;
+}
+.nav-container .content-area .nav-logo {
+  width: 57.23px;
+  height: 58px;
+}
+.nav-container .content-area .search-field {
+  box-sizing: border-box;
+  width: 286px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #e8ecf4;
+  border-radius: 8px;
+  padding: 16px;
+}
+.nav-container .content-area .nav-button {
+  padding: 15px;
+}
+.nav-container .content-area .nav-button-link {
+  height: 21px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #1e232c;
+}
+.nav-container .content-area .nav-action-button {
+  max-width: 80px;
+  max-height: 40px;
+  margin: 0px 10px;
+  padding: 0.563rem 1.188rem;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #008cc9;
+  border-radius: 8px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+.nav-container .content-area .login-button-color {
+  color: #008cc9;
+}
+.nav-container .content-area .signup-button-color {
+  background: #008cc9;
+}
+.nav-container .content-area .download-from-playstore {
+  max-width: 122.11px;
+  height: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 1090px) {
+  .nav-container .content-area {
+    width: 1090px;
+    padding: 10px 30px;
+  }
+  .nav-container .content-area .nav-logo {
+    width: 52.23px;
+    height: 52px;
+  }
+  .nav-container .content-area .search-field {
+    box-sizing: border-box;
+    width: 200px;
+    height: 30px;
+    background: #ffffff;
+    border: 1px solid #e8ecf4;
+    border-radius: 8px;
+    padding: 12px;
+  }
+  .nav-container .content-area .nav-button {
+    padding: 5px;
+    width: 65px;
+  }
+  .nav-container .content-area .nav-button-link {
+    height: 21px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 21px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1e232c;
+  }
+  .nav-container .content-area .nav-action-button {
+    max-width: 50px;
+    height: 30px;
+    margin: 0px 3px;
+    padding: 3px 5px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #008cc9;
+    border-radius: 8px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .nav-container .content-area .login-button-color {
+    color: #008cc9;
+  }
+  .nav-container .content-area .signup-button-color {
+    background: #008cc9;
+  }
+  .nav-container .content-area .download-from-playstore {
+    max-width: 80px;
+    height: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */

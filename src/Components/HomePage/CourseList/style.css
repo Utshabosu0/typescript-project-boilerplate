@@ -1,0 +1,44 @@
+.cousrse-list-container {
+  padding: 24px 0px 0px 12px;
+}
+.cousrse-list-container .cousrse-list-content {
+  background: #f6f7fa;
+  padding-top: 60px;
+  padding-bottom: 57px;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+.cousrse-list-container .cousrse-list-content .title {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 135%;
+  color: #1e232c;
+  margin-bottom: 30px;
+}
+.cousrse-list-container .cousrse-list-content .category-text {
+  font-size: 11px;
+  line-height: 21px;
+}
+.cousrse-list-container .cousrse-list-content .category {
+  width: 120px;
+  height: 30px;
+  border-radius: 8px;
+}
+.cousrse-list-container .cousrse-list-content .category-active {
+  background: #008cc9;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.cousrse-list-container .cousrse-list-content .course-list {
+  margin-top: 60px;
+}/*# sourceMappingURL=style.css.map */
